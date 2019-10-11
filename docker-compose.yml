@@ -1,0 +1,7 @@
+version: '3'
+services:
+  holiday-sources:
+    container_name: holidays-jp.js
+    ports:
+      - '8189:3000'
+    build: .
